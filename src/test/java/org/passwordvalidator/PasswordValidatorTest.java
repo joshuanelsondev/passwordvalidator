@@ -1,7 +1,7 @@
 package org.passwordvalidator;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class PasswordValidatorTest {
 
@@ -96,7 +96,7 @@ public class PasswordValidatorTest {
             validator.validatePassword("ThisIsMyPassword1!", "PasswordNotTheSame!");
             fail("Expected PasswordMismatchException");
         } catch (PasswordMismatchException e) {
-            assertEquals("Passwords do not match.", e.getMessage());
+            assertEquals("Passwords do not match", e.getMessage());
         } catch (WeakPasswordException e) {
             fail("Did not expect WeakPasswordException");
         }
@@ -109,7 +109,7 @@ public class PasswordValidatorTest {
             validator.validatePassword("Password1!", "Password1!");
             fail("Expected WeakPasswordException");
         } catch (WeakPasswordException e) {
-            assertEquals("Passwords is too common and weak.", e.getMessage());
+            assertEquals("Password is too common and weak.", e.getMessage());
         } catch (PasswordMismatchException e) {
             fail("Did not expect password mismatch exception");
         }

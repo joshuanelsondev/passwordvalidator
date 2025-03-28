@@ -2,6 +2,7 @@ org/passwordvalidator/Main.class
 org/passwordvalidator/WeakPasswordException.class
 org/passwordvalidator/PasswordHasher.class
 org/passwordvalidator/PasswordMismatchException.class
+org/passwordvalidator/RegistrationResult.class
 org/passwordvalidator/PasswordValidator.class
 org/passwordvalidator/UserRegistration.class
 org/passwordvalidator/ValidationLogger.class

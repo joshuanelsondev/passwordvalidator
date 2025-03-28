@@ -2,6 +2,7 @@
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/PasswordHasher.java
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/PasswordMismatchException.java
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/PasswordValidator.java
+/Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/RegistrationResult.java
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/UserRegistration.java
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/ValidationLogger.java
 /Users/joshuanelson/java_practice/PasswordValidator/src/main/java/org/passwordvalidator/WeakPasswordException.java
